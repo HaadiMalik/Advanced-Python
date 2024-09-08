@@ -4,6 +4,7 @@
 import json
 from collections import defaultdict
 import pprint
+from itertools import groupby
 
 # open the sample weather data file and use the json module to load and parse it
 with open("../../sample-weather-history.json", "r") as weatherfile:
